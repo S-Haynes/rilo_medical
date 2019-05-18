@@ -1,0 +1,60 @@
+.Header {
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  font-weight: 800;
+  font-size: 72px;
+  text-transform: uppercase;
+  color: rgba(202, 248, 95, 0.8);
+  margin-top: 25%;
+}
+
+.Subheader {
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 30px;
+}
+
+.Arrow {
+  width: 200px;
+  height: 250px;
+}
+
+.Arrow_container {
+  position: absolute;
+  bottom: -450px;
+  left: 43%;
+}
+
+.purchase-btn:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: -20px;
+  width: 30px;
+  height: 1px;
+  background: #ccc;
+  opacity: 0.5;
+}
+
+h1.section-title {
+  position: relative;
+}
+h1.section-title:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: calc(50% - 70px);
+  width: 100px;
+  height: 3px;
+  background: rgb(109, 179, 64);
+}
+
+.dont-delay-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #eee;
+  -webkit-clip-path: polygon(50% 0%, 75% 0, 25% 100%, 0 100%, 0 0);
+  clip-path: polygon(50% 0%, 75% 0, 25% 100%, 0 100%, 0 0);
+}
