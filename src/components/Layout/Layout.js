@@ -6,10 +6,16 @@ class Layout extends Component {
     return (
       <Fragment>
         <Navbar />
-        <div style={{ width: "100%", height: "100%", marginBottom: "250px" }}>
+        <div
+          style={{
+            position: "relative",
+            width: "100%",
+            height: "100%",
+            marginBottom: "250px"
+          }}
+        >
           {this.props.children}
         </div>
-        <Footer />
       </Fragment>
     );
   }

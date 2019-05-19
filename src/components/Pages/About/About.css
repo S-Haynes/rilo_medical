@@ -1,0 +1,9 @@
+.Herbs {
+  max-width: 600px;
+}
+
+@media (max-width: 767px) {
+  .Herbs {
+    max-width: 300px;
+  }
+}

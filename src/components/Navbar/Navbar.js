@@ -9,6 +9,7 @@ import {
   NavLink,
   CardImg
 } from "reactstrap";
+import { Link } from "react-router-dom";
 
 import Logo from "../../assets/img/logo.png";
 import "./Navbar.css";
@@ -25,7 +26,7 @@ class HeaderNav extends Component {
   render() {
     return (
       <Navbar fixed color="light" light expand="md">
-        <NavbarBrand href="/">
+        <NavbarBrand tag={Link} to="/">
           <CardImg
             top
             style={{ width: "100px", marginLeft: "30px" }}
@@ -37,16 +38,22 @@ class HeaderNav extends Component {
         <Collapse isOpen={this.state.isOpen} navbar>
           <Nav className="ml-auto" navbar>
             <NavItem>
-              <NavLink href="/about">Home</NavLink>
+              <NavLink tag={Link} to="/">
+                Home
+              </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/about">About</NavLink>
+              <NavLink tag={Link} to="/about">
+                About
+              </NavLink>
             </NavItem>
+            <NavLink tag={Link} to="/purchase">
+              Purchase
+            </NavLink>
             <NavItem>
-              <NavLink href="/purchase">Purchase</NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink href="/contact">Contact</NavLink>
+              <NavLink tag={Link} to="/contact">
+                Contact
+              </NavLink>
             </NavItem>
           </Nav>
         </Collapse>

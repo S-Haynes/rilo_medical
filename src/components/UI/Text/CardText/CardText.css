@@ -1,0 +1,11 @@
+.CardText {
+  font-size: 24px;
+  margin-top: 75px;
+}
+
+@media (max-width: 767px) {
+  p.CardText {
+    font-size: 14px;
+    margin-top: 20px;
+  }
+}
