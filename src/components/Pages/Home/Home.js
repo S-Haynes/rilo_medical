@@ -31,12 +31,11 @@ class Home extends Component {
               className="purchase-btn"
               size="lg"
               style={{
-                letterSpacing: "1px",
-                background: "rgba(109,179,64, 0.7)",
+                letterSpacing: "2px",
+                background: "rgba(109,179,64, 0.9)",
                 outline: "none",
                 border: "none",
-                position: "relative",
-                top: "50px",
+                marginTop: "50px",
                 fontWeight: "800",
                 boxShadow: "-10px 5px 100px rgba(109,179,64, 0.7)"
               }}

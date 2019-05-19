@@ -1,9 +1,17 @@
-.Herbs {
+.Img {
   max-width: 600px;
 }
 
+.Logo-About {
+  max-width: 300px;
+}
+
 @media (max-width: 767px) {
-  .Herbs {
+  .Img {
     max-width: 300px;
+  }
+
+  .Logo-About {
+    max-width: 150px;
   }
 }

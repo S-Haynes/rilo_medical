@@ -20,7 +20,7 @@
 
 .Arrow_container {
   position: absolute;
-  bottom: -370px;
+  bottom: -400px;
   left: 43%;
 }
 
@@ -61,13 +61,8 @@ h1.section-title:before {
   right: 0;
   bottom: 0;
   background: #eee;
-  -webkit-clip-path: polygon(50% 0%, 75% 0, 25% 100%, 0 100%, 0 0);
-  clip-path: polygon(50% 0%, 75% 0, 25% 100%, 0 100%, 0 0);
-}
-
-.info-text {
-  font-size: 24px;
-  margin-top: 75px;
+  -webkit-clip-path: polygon(0 0, 100% 0, 0 100%, 0% 100%);
+  clip-path: polygon(0 0, 100% 0, 0 100%, 0% 100%);
 }
 
 @media (max-width: 767px) {
@@ -89,13 +84,8 @@ h1.section-title:before {
 
   .Arrow_container {
     position: absolute;
-    bottom: -200px;
+    bottom: -230px;
     left: 43%;
-  }
-
-  p.info-text {
-    font-size: 14px;
-    margin-top: 20px;
   }
 
   img.Customer {
@@ -105,6 +95,6 @@ h1.section-title:before {
 
   .joint-pain-section {
     position: relative;
-    top: 150px;
+    top: 50px;
   }
 }

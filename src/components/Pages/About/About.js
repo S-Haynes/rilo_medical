@@ -6,6 +6,7 @@ import CardText from "../../UI/Text/CardText/CardText";
 import CardTitle from "../../UI/Text/CardTitle/CardTitle";
 import HerbImg from "../../../assets/img/herbs.png";
 import Ingredients from "../../../assets/img/ingredients.png";
+import Logo from "../../../assets/img/logo.png";
 
 import "./About.css";
 
@@ -20,7 +21,7 @@ class About extends Component {
         </Row>
         <Container>
           <Row>
-            <Col md="6" sm="12">
+            <Col style={{ marginTop: "100px" }} md="6" sm="12">
               <CardText text="If you suffer from arthritis, inflammation of the joints, get relief with Riphi Pain Lotion. This scentless lotion helps soothe arthritic joints, whether it is in your knee, hip, wrist, fingers or other joints of the body that are aching. This lotion contains no fillers so you get all the plants' goodness." />
             </Col>
             <Col
@@ -32,7 +33,7 @@ class About extends Component {
               md="6"
               sm="12"
             >
-              <CardImg className="Herbs" src={HerbImg} />
+              <CardImg className="Img" src={HerbImg} />
             </Col>
           </Row>
           <Row style={{ marginTop: "100px" }}>
@@ -55,7 +56,7 @@ class About extends Component {
               md="6"
               xs="12"
             >
-              <CardImg className="Herbs" src={Ingredients} />
+              <CardImg className="Img" src={Ingredients} />
             </Col>
           </Row>
         </Container>
@@ -85,6 +86,16 @@ class About extends Component {
                   />
                 </Col>
               </Row>
+            </Col>
+            <Col
+              style={{
+                justifyContent: "center",
+                alignItems: "center",
+                display: "flex"
+              }}
+              xs="12"
+            >
+              <CardImg className="Logo-About" src={Logo} />
             </Col>
             <Col style={{ marginTop: "75px" }} md="12">
               <Row>

@@ -25,7 +25,7 @@ class HeaderNav extends Component {
   };
   render() {
     return (
-      <Navbar fixed color="light" light expand="md">
+      <Navbar color="light" light expand="md">
         <NavbarBrand tag={Link} to="/">
           <CardImg
             top

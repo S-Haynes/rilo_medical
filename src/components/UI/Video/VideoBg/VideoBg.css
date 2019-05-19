@@ -4,4 +4,37 @@
   width: 100%;
   position: absolute;
   z-index: 1;
+  pointer-events: none;
+}
+
+@media (max-width: 767px) {
+  video.VideoBg {
+    display: none;
+    visibility: hidden;
+    pointer-events: none;
+  }
+
+  video {
+    display: none;
+    visibility: hidden;
+    width: 0px;
+    height: 0px;
+    pointer-events: none;
+  }
+}
+
+@media screen and (max-device-width: 767px) and (orientation: portrait) {
+  video.VideoBg {
+    display: none;
+    visibility: hidden;
+    pointer-events: none;
+  }
+
+  video {
+    display: none;
+    visibility: hidden;
+    width: 0px;
+    height: 0px;
+    pointer-events: none;
+  }
 }
