@@ -47,8 +47,8 @@ class HeaderNav extends Component {
                 About
               </NavLink>
             </NavItem>
-            <NavLink tag={Link} to="/purchase">
-              Purchase
+            <NavLink tag={Link} to="/shop">
+              Shop
             </NavLink>
             <NavItem>
               <NavLink tag={Link} to="/contact">

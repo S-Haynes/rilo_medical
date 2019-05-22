@@ -22,7 +22,13 @@ class About extends Component {
         <Container>
           <Row>
             <Col style={{ marginTop: "100px" }} md="6" sm="12">
-              <CardText text="If you suffer from arthritis, inflammation of the joints, get relief with Riphi Pain Lotion. This scentless lotion helps soothe arthritic joints, whether it is in your knee, hip, wrist, fingers or other joints of the body that are aching. This lotion contains no fillers so you get all the plants' goodness." />
+              <CardText>
+                If you suffer from arthritis, inflammation of the joints, get
+                relief with Riphi Pain Lotion. This scentless lotion helps
+                soothe arthritic joints, whether it is in your knee, hip, wrist,
+                fingers or other joints of the body that are aching. This lotion
+                contains no fillers so you get all the plants' goodness.
+              </CardText>
             </Col>
             <Col
               style={{
@@ -43,7 +49,10 @@ class About extends Component {
                   <CardTitle text="Product Ingredients" />
                 </Col>
                 <Col xs="12">
-                  <CardText text="Herbal extract, Rosemary Essential oil, Peppermint Essential oil, E-wax and Shea Butter." />
+                  <CardText>
+                    Herbal extract, Rosemary Essential oil, Peppermint Essential
+                    oil, E-wax and Shea Butter.
+                  </CardText>
                 </Col>
               </Row>
             </Col>
@@ -68,7 +77,12 @@ class About extends Component {
                   <CardTitle text="Disclaimer" />
                 </Col>
                 <Col xs="12">
-                  <CardText text="Riphi Pain Lotion is not intended to diagnose, treat, cure or prevent any disease. This formula has not been evaluated by the Food and Drug Administration. For severe undiagnosed pain, please consult your physician immediately." />
+                  <CardText>
+                    Riphi Pain Lotion is not intended to diagnose, treat, cure
+                    or prevent any disease. This formula has not been evaluated
+                    by the Food and Drug Administration. For severe undiagnosed
+                    pain, please consult your physician immediately.
+                  </CardText>
                 </Col>
               </Row>
             </Col>
@@ -78,12 +92,17 @@ class About extends Component {
                   <CardTitle text="Warnings" />
                 </Col>
                 <Col xs="12">
-                  <CardText
-                    text="For external use only. When using this product, do not apply to wounds or damaged skin. Do not use near the eyes, if product gets to the eyes, rinse thoroughly with water. Do not mix with other products"
-                    text2="Stop use and ask a doctor if:
-                    A rash or irritation develops.
-                    If pregnant or breastfeeding ask a health professional before use."
-                  />
+                  <CardText>
+                    For external use only. When using this product, do not apply
+                    to wounds or damaged skin. Do not use near the eyes, if
+                    product gets to the eyes, rinse thoroughly with water. Do
+                    not mix with other products
+                    <br />
+                    <br />
+                    Stop use and ask a doctor if: A rash or irritation develops.
+                    If pregnant or breastfeeding ask a health professional
+                    before use.
+                  </CardText>
                 </Col>
               </Row>
             </Col>
@@ -103,7 +122,12 @@ class About extends Component {
                   <CardTitle text="Shipping Info" />
                 </Col>
                 <Col xs="12">
-                  <CardText text="Standard shipping costs only $5 per order, regardless of the size of the order. Orders usually arrive in 5-7 business day depending on which part of the country you live. Currently, we do not ship outside the USA." />
+                  <CardText>
+                    Standard shipping costs only $5 per order, regardless of the
+                    size of the order. Orders usually arrive in 5-7 business day
+                    depending on which part of the country you live. Currently,
+                    we do not ship outside the USA.
+                  </CardText>
                 </Col>
               </Row>
             </Col>
