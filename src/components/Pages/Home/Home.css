@@ -24,7 +24,7 @@
   left: 43%;
 }
 
-.purchase-btn:before {
+/* .purchase-btn:before {
   content: "";
   position: absolute;
   top: 50%;
@@ -33,7 +33,7 @@
   height: 1px;
   background: #ccc;
   opacity: 0.5;
-}
+} */
 
 .joint-pain-section {
   position: relative;
@@ -84,7 +84,7 @@ h1.section-title:before {
 
   .Arrow_container {
     position: absolute;
-    bottom: -230px;
+    bottom: -200px;
     left: 43%;
   }
 
