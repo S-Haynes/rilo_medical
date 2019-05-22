@@ -31,6 +31,7 @@ class Home extends Component {
               className="purchase-btn"
               size="lg"
               style={{
+                position: "relative",
                 letterSpacing: "2px",
                 background: "rgba(109,179,64, 0.9)",
                 outline: "none",
@@ -59,16 +60,18 @@ class Home extends Component {
                 <CardImg width="50%" src={Joints} />
               </Col>
               <Col sm="12" md="6">
-                <CardText
-                  text="Riphi Pain Lotion helps relieve the aches and pains in any
-                  part of the body."
-                  text2=" If you suffer from arthritis, inflammation of the joints, get
+                <CardText>
+                  Riphi Pain Lotion helps relieve the aches and pains in any
+                  part of the body.
+                  <br />
+                  <br />
+                  If you suffer from arthritis, inflammation of the joints, get
                   relief with Riphi Pain Lotion. This scentless lotion helps
                   soothe arthritic joints, whether it is in your knee, hip,
                   wrist, fingers or other joints of the body that are aching.
                   This lotion contains no fillers so you get all the plants'
-                  goodness."
-                />
+                  goodness.
+                </CardText>
               </Col>
             </Row>
           </Container>
